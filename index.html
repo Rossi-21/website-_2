@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        /* Custom Styles using the provided color palette */
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #38a9ca;
+        }
+
+        .jumbotron {
+            background-color: #4178a3;
+            color: #ffffff;
+            padding: 100px 20px;
+            margin-bottom: 0;
+        }
+
+        .card {
+            background-color: #3da6a9;
+            color: #ffffff;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-title {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Your Logo / Brand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Your Website</h1>
+        <p class="lead">Creating beautiful and responsive web experiences.</p>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <!-- Card 1 -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk of the card's content.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 2</h5>
+                        <p class="card-text">Some more text to describe the second card.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
